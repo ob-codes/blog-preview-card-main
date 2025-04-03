@@ -1,0 +1,96 @@
+html {
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f4d04e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    max-width: 320px;
+    border: 1px solid;
+    border-radius: 5%;
+    padding: 20px;
+    box-shadow: 8px 8px 0px 0px rgba(0,0,0,1);
+}
+
+#image-container {
+    overflow: hidden;
+    border-radius: 8%;
+}
+
+#head-img {
+    margin-left: -26px;
+}
+
+#learning {
+    margin: 15px 0;
+    background-color: #f4d04e;
+    width: 6em;
+    height: 2.3em;
+    font-weight: 800;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10%;
+}
+
+#published-date {
+    font-weight: 500;
+    font-size: 0.7rem;
+    margin-bottom: 15px;
+}
+
+#header {
+    font-weight: 800;
+    margin-bottom: 15px;
+}
+
+#main-text {
+    font-size: 0.87em;
+    color: #6b6b6b;
+    margin-bottom:15px;
+    line-height: 1.5rem;
+}
+
+#profile-container {
+    display: flex;
+    align-items: center;
+}
+
+#profile-img {
+    width: 10%;
+    margin-right: 10px;
+}
+
+#name {
+    font-size: 0.9rem;
+    font-weight: 800;
+}
+
+@media (min-width: 600px) {
+    .container {
+        background-color: white;
+        width: 40%;
+        box-shadow: 6px 6px 0px 0px rgba(0,0,0,1);
+    }    
+
+    #head-img {
+        width: 100%;
+        border-radius: 5%;
+        margin: 0;
+    }
+}
